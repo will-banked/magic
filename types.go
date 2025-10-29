@@ -309,6 +309,22 @@ var Types = []FileType{
 	},
 
 	{
+		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xEE},
+		Offset:      0,
+		Description: "JPEG raw or in the JFIF or Exif file format",
+		Extension:   "jpg",
+		MIME:        "",
+	},
+
+	{
+		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xE0},
+		Offset:      0,
+		Description: "JPEG raw or in the JFIF or Exif file format",
+		Extension:   "jpg",
+		MIME:        "",
+	},
+
+	{
 		Magic:       []byte{0x49, 0x4E, 0x44, 0x58},
 		Offset:      0,
 		Description: "Index file to a file or tape containing a backup done with AmiBack on an Amiga.",
