@@ -293,31 +293,7 @@ var Types = []FileType{
 	},
 
 	{
-		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xDB},
-		Offset:      0,
-		Description: "JPEG raw or in the JFIF or Exif file format",
-		Extension:   "jpg",
-		MIME:        "",
-	},
-
-	{
-		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xE0, 0x00, 0x10, 0x4A, 0x46, 0x49, 0x46, 0x00, 0x01},
-		Offset:      0,
-		Description: "JPEG raw or in the JFIF or Exif file format",
-		Extension:   "jpg",
-		MIME:        "",
-	},
-
-	{
-		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xEE},
-		Offset:      0,
-		Description: "JPEG raw or in the JFIF or Exif file format",
-		Extension:   "jpg",
-		MIME:        "",
-	},
-
-	{
-		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xE0},
+		Magic:       []byte{0xFF, 0xD8, 0xFF},
 		Offset:      0,
 		Description: "JPEG raw or in the JFIF or Exif file format",
 		Extension:   "jpg",
